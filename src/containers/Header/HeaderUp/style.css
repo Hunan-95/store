@@ -1,0 +1,49 @@
+ .header{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+ }
+
+
+ @media   (min-width:708px){
+   .header{
+      display: flex;
+      flex-direction: row;
+   }
+}
+
+@media (max-width:1055px) {
+   .header{
+      padding:0 10px 0 10px ;
+      display: flex;
+      flex-direction: row;
+   }
+   .Products-2000{
+      display: none;
+   }
+   .time-10{
+      display: none;
+   }
+   .phone{
+      display: none;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.dropdown{
+   position: fixed;
+   margin-top: 50px;
+ }
+ .dropdownlink{
+    background-color: chartreuse;
+ } */
